@@ -4,12 +4,9 @@
 #include <vector>
 #define _WIN32_WINNT 0x0500
 #include<windows.h>
-//Dodati komentare
-//provjeriti libove
-// jos fixova? pa na github
 HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
-//Funkcija Ëekanja
+//Funkcija √®ekanja
 void wait(int ms=1000)
 {
     clock_t poc = clock();
@@ -35,7 +32,7 @@ void SetWindow(int Width, int Height)
 }
 
 
-//Funkcija za gaöenje kursora(https://stackoverflow.com/questions/18028808/blinking-underscore-with-console)
+//Funkcija za ga≈°enje kursora(https://stackoverflow.com/questions/18028808/blinking-underscore-with-console)
 void ShowConsoleCursor(bool showFlag)
 {
     HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
